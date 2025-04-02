@@ -9,10 +9,10 @@ public class jujubinha {
         System.out.println("Fala um número aí pae ");
         a = sc.nextInt();
 
-        b = (a%10); /*7*/
-        c = a/100; /*4*/
-        d = (a%100)-b; /*50*/
-        e = b*100;  /*700*/
+        b = (a%10);
+        c = a/100;
+        d = (a%100)-b;
+        e = b*100;
         f = e+d+c;
 
         System.out.println("Esse número ao contrário fica "+f);
